@@ -1,0 +1,129 @@
+.group {
+  display: flex;
+  &-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    padding-top: 50px;
+    .header {
+      font-size: 38px;
+      font-weight: 600;
+      font-family: sans-serif;
+      letter-spacing: -1px;
+    }
+    .text {
+      font-size: 18px;
+      font-weight: 300;
+      font-family: sans-serif;
+    }
+    .body-text {
+      font-size: 20px;
+      line-height: 35px;
+      width: 380px;
+    }
+    .btn {
+      padding: 15px 35px;
+      background-color: #fff;
+      border: 2px solid rgb(184, 184, 184);
+      a {
+        text-decoration: none;
+        font-size: 18px;
+        font-family: sans-serif;
+      }
+    }
+    .glasses {
+      width: 100%;
+    }
+  }
+  .img {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.group-two {
+  display: flex;
+  .img-one {
+    width: 50%;
+  }
+  .group-two-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 65px;
+    padding-top: 75px;
+    .header {
+      font-size: 30px;
+      font-weight: 600;
+      font-family: sans-serif;
+      width: 380px;
+    }
+    .body-text {
+      font-size: 21px;
+      line-height: 35px;
+      width: 380px;
+    }
+    .btn {
+      padding: 15px 35px;
+      background-color: #fff;
+      border: 2px solid rgb(184, 184, 184);
+      a {
+        text-decoration: none;
+        font-size: 18px;
+        font-family: sans-serif;
+      }
+    }
+    .img-two {
+      width: 100%;
+    }
+  }
+}
+.group-three {
+  display: flex;
+  width: 100%;
+  position: relative;
+  .group-three-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 65px;
+    padding-top: 75px;
+    .header {
+      font-size: 30px;
+      font-weight: 600;
+      font-family: sans-serif;
+      width: 380px;
+    }
+    .body-text {
+      font-size: 21px;
+      line-height: 35px;
+      width: 380px;
+    }
+    .btn {
+      padding: 15px 35px;
+      background-color: #fff;
+      border: 2px solid rgb(184, 184, 184);
+      a {
+        text-decoration: none;
+        font-size: 18px;
+        font-family: sans-serif;
+      }
+    }
+    .logo-2 {
+      position: absolute;
+      bottom: 250px;
+      left: 20px;
+      z-index: -1;
+      filter: opacity(0.5);
+    }
+  }
+  .img-three {
+    width: 50%;
+  }
+}
