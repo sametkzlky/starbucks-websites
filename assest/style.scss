@@ -38,6 +38,23 @@
     }
   }
 }
+.back{
+  opacity: 0.9;
+  position: absolute;
+  top: 50%;
+  .backto{  
+        padding: 50px;
+        width: 390px;
+        background: darkkhaki;
+        color: white;
+        font-weight: 600;
+        font-size: 25px;
+        position: fixed;
+        p{
+          opacity: 1;
+        }
+    }
+  }
 footer {
   background-color: #818080;
   width: 100%;
